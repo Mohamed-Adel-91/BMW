@@ -1,8 +1,10 @@
-import React from 'react'
+import Head from "./components/Head/Head"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Head/>
+    </div>
   )
 }
 
