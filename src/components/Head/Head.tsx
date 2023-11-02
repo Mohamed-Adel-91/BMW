@@ -1,27 +1,19 @@
 import Carousel from 'react-bootstrap/Carousel';
-import NavBar from '../NavBar/NavBar';
+import "./Head.css"
+import head1 from '../../assets/img/head1.png';
 
 function UncontrolledExample() {
-    return (
-    <>
-    <NavBar/>
+  return (
     <Carousel>
-        <Carousel.Item>
-            <img
-                src="/src/assets/img/shutterstock_472592110.png"
-                width="100%"
-                height="100%"
-                className="d-inline-block align-top"
-                alt="React Bootstrap logo"
-                />
+      <Carousel.Item>
+        <img src={head1} alt="head1" className='d-block w-100' style={{ height: "90vh" }} />
         <Carousel.Caption>
-        <h1>BMW APPROVED USED CARS.</h1>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
-        </Carousel.Item>
+          <h3>BMW APPROVED USED CARS.</h3>
+          <p>Search, reserve and buy your Approved Used BMW - all online.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
     </Carousel>
-    </>
-    );
+  );
 }
 
 export default UncontrolledExample;
