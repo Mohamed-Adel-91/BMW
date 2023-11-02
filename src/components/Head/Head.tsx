@@ -14,6 +14,10 @@ function UncontrolledExample() {
                 className="d-inline-block align-top"
                 alt="React Bootstrap logo"
                 />
+        <Carousel.Caption>
+        <h1>BMW APPROVED USED CARS.</h1>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </Carousel.Caption>
         </Carousel.Item>
     </Carousel>
     </>
