@@ -5,25 +5,30 @@
     width: 100%;
     color: #fff;
 }
-.nav1 .navLink1{
+.nav1 .navLink1 {
     display: flex;
-    border-bottom: 0.07rem solid #fff;
 }
-.nav1 .link1{
+.nav1 .link1 {
     color: #fff;
     font-weight: bold;
 }
-.nav1 .link1:hover{
+.nav1 .link1:hover {
     border-bottom: 0.25rem solid #1c69d4;
 }
-.icons{
+.icons {
     padding: 10px;
-    margin-bottom: 10px;
     font-weight: bold;
 }
 
-.nav1 .navIcons1{
-    border-bottom: 0.07rem solid #fff;
+.nav1 .navIcons1 {
+    display: flex;
+    justify-content: end;
+    padding-bottom: 20px;
+}
+.nav1 .icons:hover {
+    border-bottom: 0.25rem solid #1c69d4;
 }
 
-
+.row {
+    border-bottom: 0.12rem solid #fff;
+}
