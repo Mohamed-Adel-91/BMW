@@ -1,18 +1,20 @@
-.nav1 {
-    position: absolute;
-    top: 15px;
-    z-index: 22;
-    width: 100%;
+.navHome{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
     color: #fff;
+
 }
-.nav1 .navLink1 {
+
+.navHome .navLinkHome {
     display: flex;
+
 }
-.nav1 .link1 {
+.navHome .linkHome {
     color: #fff;
     font-weight: bold;
 }
-.nav1 .link1:hover {
+.navHome .linkHome:hover {
     border-bottom: 0.25rem solid #1c69d4;
 }
 .icons {
@@ -20,15 +22,17 @@
     font-weight: bold;
 }
 
-.nav1 .navIcons1 {
+.navHome .navIconsHome {
     display: flex;
     justify-content: end;
-    padding-bottom: 20px;
+    color: #fff;
+    margin-bottom: 2rem;
 }
-.nav1 .icons:hover {
-    border-bottom: 0.25rem solid #1c69d4;
+.navHome .icons:hover {
+    color: #1c69d4;
 }
 
 .row {
     border-bottom: 0.12rem solid #fff;
+    margin-bottom: 2rem;
 }
