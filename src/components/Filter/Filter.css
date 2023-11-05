@@ -1,0 +1,29 @@
+.con{
+    background-color: rgba(12, 12, 12, 0.702);
+    height: 100px;
+}
+
+.con .row{
+    border-bottom: 0px;
+}
+.con .col {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.con .search{
+    position: relative;
+    height: 47px;
+    top: 9px;
+    font-size: 20px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}

@@ -14,8 +14,9 @@
     padding-left: 50px;
     padding-right: 50px;
     top: 450px;
-    font-size: 20px;
-    column-gap: 1rem;
+    font-size: 18px;
+    column-gap: 1.5rem;
+    z-index: 10;
 }
 
 .element .checkIcon{
@@ -25,4 +26,5 @@
     opacity: 50%;
     color: #1c69d4;
     font-size: 120px;
+    
 }

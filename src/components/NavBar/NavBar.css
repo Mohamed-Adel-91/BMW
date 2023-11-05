@@ -22,6 +22,10 @@
     font-weight: bold;
 }
 
+.logo{
+    padding-left: 20px;
+}
+
 .navHome .navIconsHome {
     display: flex;
     justify-content: end;
@@ -34,5 +38,5 @@
 
 .row {
     border-bottom: 0.12rem solid #fff;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
