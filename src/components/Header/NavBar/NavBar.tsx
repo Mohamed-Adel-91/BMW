@@ -24,7 +24,7 @@ function NavBar() {
                             </Navbar.Brand>
                             <Navbar.Brand className='logo' href="#home">
                                 <img
-                                    src="/src/assets/img/BMW_White_Logo.svg.asset.1670245093434.svg"
+                                    src="/public/img/BMW_White_Logo.svg.asset.1670245093434.svg"
                                     width="45"
                                     height="45"
                                     className="d-inline-block align-top"

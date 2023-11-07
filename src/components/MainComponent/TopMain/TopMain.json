@@ -1,0 +1,206 @@
+[
+    {
+        "id":"1",
+        "src": "/public/img/cosySec.png",
+        "name": "BMW 3 Series",
+        "price": "1.200.000 LE",
+        "category": "2.0 320i M Sport Auto xDrive Euro 6 (s/s) 4dr",
+        "array": [
+            {
+                "Model": "2021",
+                "KM": "12,000 Km",
+                "color": "Marron",
+                "Kind" : "Petrol",
+                "fender": "Automatic"
+            }
+        ],
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
+    },
+    {
+        "id":"2",
+        "src": "/public/img/cosySec.png",
+        "name": "BMW 3 Series",
+        "price": "1.200.000 LE",
+        "category": "2.0 320i M Sport Auto xDrive Euro 6 (s/s) 4dr",
+        "array": [
+            {
+                "Model": "2021",
+                "KM": "12,000 Km",
+                "color": "Marron",
+                "Kind" : "Petrol",
+                "fender": "Automatic"
+            }
+        ],
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
+    },
+    {
+        "id":"3",
+        "src": "/public/img/cosySec.png",
+        "name": "BMW 3 Series",
+        "price": "1.200.000 LE",
+        "category": "2.0 320i M Sport Auto xDrive Euro 6 (s/s) 4dr",
+        "array": [
+            {
+                "Model": "2021",
+                "KM": "12,000 Km",
+                "color": "Marron",
+                "Kind" : "Petrol",
+                "fender": "Automatic"
+            }
+        ],
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
+    },
+    {
+        "id":"4",
+        "src": "/public/img/cosySec.png",
+        "name": "BMW 3 Series",
+        "price": "1.200.000 LE",
+        "category": "2.0 320i M Sport Auto xDrive Euro 6 (s/s) 4dr",
+        "array": [
+            {
+                "Model": "2021",
+                "KM": "12,000 Km",
+                "color": "Marron",
+                "Kind" : "Petrol",
+                "fender": "Automatic"
+            }
+        ],
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
+    },
+    {
+        "id":"5",
+        "src": "/public/img/cosySec.png",
+        "name": "BMW 3 Series",
+        "price": "1.200.000 LE",
+        "category": "2.0 320i M Sport Auto xDrive Euro 6 (s/s) 4dr",
+        "array": [
+            {
+                "Model": "2021",
+                "KM": "12,000 Km",
+                "color": "Marron",
+                "Kind" : "Petrol",
+                "fender": "Automatic"
+            }
+        ],
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
+    },
+    {
+        "id":"6",
+        "src": "/public/img/cosySec.png",
+        "name": "BMW 3 Series",
+        "price": "1.200.000 LE",
+        "category": "2.0 320i M Sport Auto xDrive Euro 6 (s/s) 4dr",
+        "array": [
+            {
+                "Model": "2021",
+                "KM": "12,000 Km",
+                "color": "Marron",
+                "Kind" : "Petrol",
+                "fender": "Automatic"
+            }
+        ],
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
+    },
+    {
+        "id":"7",
+        "src": "/public/img/cosySec.png",
+        "name": "BMW 3 Series",
+        "price": "1.200.000 LE",
+        "category": "2.0 320i M Sport Auto xDrive Euro 6 (s/s) 4dr",
+        "array": [
+            {
+                "Model": "2021",
+                "KM": "12,000 Km",
+                "color": "Marron",
+                "Kind" : "Petrol",
+                "fender": "Automatic"
+            }
+        ],
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
+    },
+    {
+        "id":"8",
+        "src": "/public/img/cosySec.png",
+        "name": "BMW 3 Series",
+        "price": "1.200.000 LE",
+        "category": "2.0 320i M Sport Auto xDrive Euro 6 (s/s) 4dr",
+        "array": [
+            {
+                "Model": "2021",
+                "KM": "12,000 Km",
+                "color": "Marron",
+                "Kind" : "Petrol",
+                "fender": "Automatic"
+            }
+        ],
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
+    },
+    {
+        "id":"9",
+        "src": "/public/img/cosySec.png",
+        "name": "BMW 3 Series",
+        "price": "1.200.000 LE",
+        "category": "2.0 320i M Sport Auto xDrive Euro 6 (s/s) 4dr",
+        "array": [
+            {
+                "Model": "2021",
+                "KM": "12,000 Km",
+                "color": "Marron",
+                "Kind" : "Petrol",
+                "fender": "Automatic"
+            }
+        ],
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
+    },
+    {
+        "id":"10",
+        "src": "/public/img/cosySec.png",
+        "name": "BMW 3 Series",
+        "price": "1.200.000 LE",
+        "category": "2.0 320i M Sport Auto xDrive Euro 6 (s/s) 4dr",
+        "array": [
+            {
+                "Model": "2021",
+                "KM": "12,000 Km",
+                "color": "Marron",
+                "Kind" : "Petrol",
+                "fender": "Automatic"
+            }
+        ],
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
+    },
+    {
+        "id":"11",
+        "src": "/public/img/cosySec.png",
+        "name": "BMW 3 Series",
+        "price": "1.200.000 LE",
+        "category": "2.0 320i M Sport Auto xDrive Euro 6 (s/s) 4dr",
+        "array": [
+            {
+                "Model": "2021",
+                "KM": "12,000 Km",
+                "color": "Marron",
+                "Kind" : "Petrol",
+                "fender": "Automatic"
+            }
+        ],
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
+    },
+    {
+        "id":"12",
+        "src": "/public/img/cosySec.png",
+        "name": "BMW 3 Series",
+        "price": "1.200.000 LE",
+        "category": "2.0 320i M Sport Auto xDrive Euro 6 (s/s) 4dr",
+        "array": [
+            {
+                "Model": "2021",
+                "KM": "12,000 Km",
+                "color": "Marron",
+                "Kind" : "Petrol",
+                "fender": "Automatic"
+            }
+        ],
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
+    }
+]
