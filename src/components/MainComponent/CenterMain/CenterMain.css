@@ -1,0 +1,29 @@
+.CenterMainImgs{
+    /* border: 3px solid blueviolet; */
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    flex-direction: column;
+    padding: 5%;
+    row-gap: 1.5rem;
+}
+
+.CenterMainFirstImg {
+    /* border: 1px solid red; */
+    background-image: url("/public/img/firstCar.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.CenterMainSecondImg {
+    /* border: 1px solid green; */
+    background-image: url("/public/img/secondCar.png");
+}
+
+.CenterMainThirdImg {
+    /* border: 1px solid blue; */
+    background-image: url("/public/img/thirdcar.png");
+}

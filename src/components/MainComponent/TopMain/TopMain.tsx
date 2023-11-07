@@ -1,6 +1,9 @@
-import { Button, ButtonGroup, Carousel } from "react-bootstrap"
-
+import { Button, ButtonGroup } from "react-bootstrap";
 import "./TopMain.css"
+// import Slides from "./Slides";
+
+
+
 
 const TopMain = () => {
     return (
@@ -15,19 +18,8 @@ const TopMain = () => {
                     </Button>
                 </ButtonGroup>
             </div>
-            <div className="Slides">
-                <Carousel>
-                    <Carousel.Item>
-                        {/* <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                        </div> */}
-                    </Carousel.Item>
-                </Carousel>
+            <div className="Slides">slides
+                {/* <Slides /> */}
             </div>
         </div>
     )
