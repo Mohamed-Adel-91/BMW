@@ -1,0 +1,75 @@
+.BottomMain {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    column-gap: 1%;
+    padding-left: 90px;
+    padding-right: 80px;
+    height: 200px;
+    width:100%;
+    position: relative;
+
+}
+
+.BottomMain img {
+    filter: brightness(0.5);
+    transition: transform 0.3s;
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    position: relative;
+    color: aliceblue;
+    bottom: 200px;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    color: aliceblue;
+}
+
+.BottomMain .Button {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.BottomMainCardHover{
+    position: absolute;
+    width: 405px;
+    height: 600px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.99);
+    color: #fff;
+    transform: translateY(100%);
+    transition: transform 0.3s;
+    padding: 10px;
+    text-align: center;
+}
+
+.BottomMainCardHover {
+    transform: translateY(0);
+}
+
+.BottomMainCardOne .BottomMainCardHover {
+    left: 90px;
+}
+
+.BottomMainCardTwo .BottomMainCardHover {
+    left: 540px;
+}
+
+.BottomMainCardThree .BottomMainCardHover {
+    left: 989px;
+}
+
+.BottomMainCardFour .BottomMainCardHover {
+    left: 1440px;
+}
