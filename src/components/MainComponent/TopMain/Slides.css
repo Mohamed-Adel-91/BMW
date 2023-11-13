@@ -1,0 +1,39 @@
+.slides{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1% 5%;
+}
+
+.Container {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: auto;
+    background-color: #999;
+}
+.Container p{
+    color: #000;
+}
+.Container .line_two{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1% 10%;
+}
+
+.Container .line_four{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1% 10%;
+}
+
+.Container .line_five{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1% 10%;
+}

@@ -1,39 +1,54 @@
-import { Component } from "react";
-import Slider from "react-slick";
+import TopMain from "./TopMain.json"
+import "./Slides.css"
 
-export default class UnevenSetsInfinite extends Component {
-    render() {
-        const settings = {
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToScroll: 4,
-            slidesToShow: 4
-        };
-        return (
-            <div>
-                <h2>Uneven sets (infinite)</h2>
-                <Slider {...settings}>
-                    <div>
-                        <h3>1</h3>
-                    </div>
-                    <div>
-                        <h3>2</h3>
-                    </div>
-                    <div>
-                        <h3>3</h3>
-                    </div>
-                    <div>
-                        <h3>4</h3>
-                    </div>
-                    <div>
-                        <h3>5</h3>
-                    </div>
-                    <div>
-                        <h3>6</h3>
-                    </div>
-                </Slider>
-            </div>
-        );
-    }
+interface Item {
+    id: number,
+    src: string,
+    name: string,
+    price: string,
+    category: string,
+    model: string,
+    kM: string,
+    color: string,
+    kind: string,
+    fender: string,
+    description: string
 }
+
+
+const Slides = () => {
+    const Elements = TopMain.map((item: Item) => {
+        return (
+            <div className="Container" key={item.id}>
+                <div className="line_one">
+                    <img className="car_img" src={item.src} alt="img" />
+                </div>
+                <div className="line_two">
+                    <h3 className="name">{item.name}</h3>
+                    <h6 className="price">{item.price}</h6>
+                </div>
+                <div className="line_three">
+                    <p className="category">{item.category}</p>
+                </div>
+                <div className="line_four">
+                    <p className="model">{item.model}</p>
+                    <p className="km">{item.kM}</p>
+                    <p className="color">{item.color}</p>
+                    <p className="kind">{item.kind}</p>
+                    <p className="fender">{item.fender}</p>
+                </div>
+                <div className="line_five">
+                    <p className="description">{item.description}</p>
+                </div>
+            </div>
+        )
+    });
+
+    return (
+        <div className="slides">
+            {Elements}
+        </div>
+    );
+};
+
+export default Slides

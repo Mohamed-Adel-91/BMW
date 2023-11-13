@@ -1,5 +1,5 @@
-import BottomMain from './BottomMain/BottomMain'
-import CenterMain from './CenterMain/CenterMain'
+// import BottomMain from './BottomMain/BottomMain'
+// import CenterMain from './CenterMain/CenterMain'
 import TopMain from './TopMain/TopMain'
 
 const MainComponent = () => {
@@ -7,9 +7,9 @@ const MainComponent = () => {
         <div>
             <TopMain />
             <br />
-            <CenterMain />
+            {/* <CenterMain /> */}
             <br />
-            <BottomMain />
+            {/* <BottomMain /> */}
         </div>
     )
 }

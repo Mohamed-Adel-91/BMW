@@ -1,9 +1,6 @@
 import { Button, ButtonGroup } from "react-bootstrap";
 import "./TopMain.css"
-// import Slides from "./Slides";
-
-
-
+import Slides from "./Slides";
 
 const TopMain = () => {
     return (
@@ -18,8 +15,8 @@ const TopMain = () => {
                     </Button>
                 </ButtonGroup>
             </div>
-            <div className="Slides">slides
-                {/* <Slides /> */}
+            <div className="Slides">
+                <Slides />
             </div>
         </div>
     )
