@@ -16,6 +16,11 @@
     transition: transform 0.3s;
     width: 100%;
     height: auto;
+    -webkit-filter: brightness(0.5); 
+    -webkit-transition: transform 0.3s;
+    -moz-transition: transform 0.3s;
+    -ms-transition: transform 0.3s;
+    -o-transition: transform 0.3s;
 }
 
 h2 {
@@ -52,10 +57,22 @@ p {
     transition: transform 0.3s;
     padding: 10px;
     text-align: center;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    -webkit-transition: transform 0.3s;
+    -moz-transition: transform 0.3s;
+    -ms-transition: transform 0.3s;
+    -o-transition: transform 0.3s;
 }
 
 .BottomMainCardHover {
     transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
 }
 
 .BottomMainCardOne .BottomMainCardHover {
