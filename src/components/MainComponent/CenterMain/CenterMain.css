@@ -45,7 +45,7 @@
     align-items: flex-start;
     padding-right: 55%;
 }
-.CenterMainImgs .CenterMainSecondImg h2 {
+.CenterMainImgs .CenterMainSecondImg h1 {
     display: flex;
     padding-right: 1%;
 }
@@ -66,11 +66,10 @@
     padding-right: 55%;
 }
 
-.CenterMainImgs h2 {
+.CenterMainImgs h1 {
     color: aliceblue;
     font-size: 38px;
     font-weight: 300;
-    padding-bottom: 20px;
 }
 
 .CenterMainImgs p {
