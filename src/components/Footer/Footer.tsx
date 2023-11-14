@@ -5,12 +5,13 @@ import "./Footer.css"
 
 const Footer = () => {
     return (
-        <div className="Container">
+        <>
+            <div className="Containers">
             <div className="Icons">
-                <a href=""><AiFillYoutube /></a>
-                <a href=""><BiLogoInstagram /></a>
-                <a href=""><FaFacebookF /></a>
-                <a href=""><FaTwitter /></a>
+                    <a href="#youtube"><AiFillYoutube /></a>
+                    <a href="#instagram"><BiLogoInstagram /></a>
+                    <a href="#facebook"><FaFacebookF /></a>
+                    <a href="#twitter"><FaTwitter /></a>
             </div>
             <div className="txt">
                 <h3>Explore BMW</h3>
@@ -27,6 +28,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 

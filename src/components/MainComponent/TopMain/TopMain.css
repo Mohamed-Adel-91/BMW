@@ -1,32 +1,29 @@
-.ShowSlidesButton {
-    /*border: 1px solid red;
-    */display: flex;
+.TopMainElements .ShowSlidesButton {
+    display: flex;
     justify-content: end;
     padding-top: 20px;
-    padding-right: 60px;
-    border-radius: 0px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -ms-border-radius: 0px;
-    -o-border-radius: 0px;
+    padding-right: 4%;
+    text-decoration: none;
 }
-.ShowSlidesButton .ButtonGroup{
-    border-radius: 0px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -ms-border-radius: 0px;
-    -o-border-radius: 0px;
+.TopMainElements .ShowSlidesButton button{
+    text-decoration: none;
+    border: 1px solid #999;
 }
 
-.Slides{
-    /* border: 1px solid blue; */
+.TopMainElements .ShowSlidesButton button svg{
+    width: 35px;
+    height: 35px;
+}
+
+.TopMainElements .ShowSlidesButton button:hover{
+    background-color: #999;
+}
+
+.ShowSlidesButton .Slides{
     display: flex;
     justify-content: center;
 }
 
-.ShowSlidesButton  .img {
-    /* color: blue; */
-    margin-right: 5%;
-    width: 100px;
-}
+
+
 

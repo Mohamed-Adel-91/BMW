@@ -9,19 +9,38 @@
 
 .Container {
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 30%;
     height: auto;
-    background-color: #999;
+    margin-bottom: 50px;
 }
 .Container p{
-    color: #000;
+    color: #999;
 }
+
+.Container .line_one img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+
 .Container .line_two{
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 1% 10%;
+}
+.Container .line_two .price{
+    color: #1c69d4 !important;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.Container .line_three p{
+    color: #1c69d4 !important;
 }
 
 .Container .line_four{
@@ -29,6 +48,10 @@
     justify-content: space-between;
     width: 100%;
     padding: 1% 10%;
+    
+}
+.Container .line_four p{
+    color: #3484f4 !important;
 }
 
 .Container .line_five{
