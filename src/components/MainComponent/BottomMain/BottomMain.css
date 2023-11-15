@@ -1,138 +1,73 @@
-#BottomMain {
-    height: 100%;
-    }
-    html,
-    body {
+.card {
     position: relative;
-    height: 100%;
-    }
-
-    body {
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-    }
-
-.swiper {
-    width: 100%;
-    height: 100%;
-    }
-
-    .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-
-    .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    }
-
-
-
-
-
-
-/* .BottomMain {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    column-gap: 1%;
-    padding-left: 90px;
-    padding-right: 80px;
-    height: 200px;
-    width:100%;
-    position: relative;
-
+    width: 250px;
+    height: 400px;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 0;
 }
 
-.BottomMain img {
-    filter: brightness(0.5);
+.card img {
+    width: 100%;
+    height: 400px;
     transition: transform 0.3s;
-    width: 100%;
-    height: auto;
-    -webkit-filter: brightness(0.5); 
-    -webkit-transition: transform 0.3s;
-    -moz-transition: transform 0.3s;
-    -ms-transition: transform 0.3s;
-    -o-transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
 }
 
-h2 {
-    position: relative;
-    color: aliceblue;
-    bottom: 200px;
-    width: 400px;
-    padding: 20px;
-    text-align: center;
-}
-
-p {
-    color: aliceblue;
-}
-
-.BottomMain .Button {
-    border-radius: 0px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -ms-border-radius: 0px;
-    -o-border-radius: 0px;
-}
-
-.BottomMainCardHover{
+.card h2 {
     position: absolute;
-    width: 405px;
-    height: 600px;
+    font-size: 26px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    z-index: 0;
+}
+
+.overlay {
+    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.99);
+    background-color: rgba(0, 0, 0, 0.95);
     color: #fff;
     transform: translateY(100%);
     transition: transform 0.3s;
+    z-index: 1;
+}
+
+.overlay-content {
     padding: 10px;
     text-align: center;
-    -webkit-transform: translateY(100%);
-    -moz-transform: translateY(100%);
-    -ms-transform: translateY(100%);
-    -o-transform: translateY(100%);
-    -webkit-transition: transform 0.3s;
-    -moz-transition: transform 0.3s;
-    -ms-transition: transform 0.3s;
-    -o-transition: transform 0.3s;
 }
 
-.BottomMainCardHover {
+.find-more-btn {
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.card:hover .overlay {
     transform: translateY(0);
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
 }
 
-.BottomMainCardOne .BottomMainCardHover {
-    left: 90px;
+.BottomMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.BottomMainCardTwo .BottomMainCardHover {
-    left: 540px;
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1080px; /* Adjust the maximum width of the card container as needed */
+    width: 100%;
 }
-
-.BottomMainCardThree .BottomMainCardHover {
-    left: 989px;
-}
-
-.BottomMainCardFour .BottomMainCardHover {
-    left: 1440px;
-} */

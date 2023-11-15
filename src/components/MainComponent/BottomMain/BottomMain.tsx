@@ -1,100 +1,44 @@
-// import { Button } from "react-bootstrap"
-import { Swiper, SwiperSlide } from 'swiper/react';
+import React from "react";
+import Card from "./Card";
+import "./BottomMain.css";
 
-import 'swiper/css';
-import 'swiper/css/pagination';
+const BottomMain: React.FC = () => {
+    const cardData = [
+        {
+            title: "WHY CHOOSE BMW FINANCIAL SERVICES?",
+            description:
+                "As a proud owner, find everything you need for your BMW in one place, including BMW Accessories, 24/7 Roadside Assistance, Warranties, Accident Support, Servicing and more.",
+            imageSrc: "/public/img/Group1.png",
+        },
+        {
+            title: "FIND A BMW CENTRE.",
+            description:
+                "As a proud owner, find everything you need for your BMW in one place, including BMW Accessories, 24/7 Roadside Assistance, Warranties, Accident Support, Servicing and more.",
+            imageSrc: "/public/img/Path2.png",
+        },
+        {
+            title: "DOWNLOAD THE MY BMW APP.",
+            description:
+                "As a proud owner, find everything you need for your BMW in one place, including BMW Accessories, 24/7 Roadside Assistance, Warranties, Accident Support, Servicing and more.",
+            imageSrc: "/public/img/Group3.png",
+        },
+        {
+            title: "BMW OWNER'S DIRECTORY.",
+            description:
+                "As a proud owner, find everything you need for your BMW in one place, including BMW Accessories, 24/7 Roadside Assistance, Warranties, Accident Support, Servicing and more.",
+            imageSrc: "/public/img/Path4.png",
+        },
+    ];
 
-import "./BottomMain.css"
-
-// import required modules
-import { Pagination } from 'swiper/modules';
-
-
-const BottomMain = () => {
     return (
-        <>
-            <Swiper
-                slidesPerView={4}
-                spaceBetween={30}
-                pagination={{
-                    clickable: true,
-                }}
-                modules={[Pagination]}
-                className="mySwiper"
-            >
-                <SwiperSlide>
-                    <div className="BottomMainCardOne">
-                <div className="BottomMainCardImg">
-                    <img src="/public/img/Group1.png" alt="" />
-                    <h2>WHY CHOOSE BMW FINANCIAL SERVICES?</h2>
-                </div>
-                {/* <div className="BottomMainCardHover">
-                    <h1>BMW OWNER'S DIRECTORY.</h1>
-                    <p>As a proud owner, find everything you
-                        need for your BMW in one place,
-                        including BMW Accessories, 24/7
-                        Roadside Assistance, Warranties,
-                        Accident Support, Servicing and more.</p>
-                    <Button>Find Out More</Button>
-                </div> */}
+        <div className="BottomMain">
+            <div className="card-container">
+                {cardData.map((card, index) => (
+                    <Card key={index} {...card} />
+                ))}
             </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="BottomMainCardTwo">
-                        <div className="BottomMainCardImg">
-                            <img src="/public/img/Path2.png" alt="" />
-                            <h2>FIND A BMW CENTRE.</h2>
-                        </div>
-                        {/* <div className="BottomMainCardHover">
-                        <h1>BMW OWNER'S DIRECTORY.</h1>
-                        <p>As a proud owner, find everything you
-                        need for your BMW in one place,
-                        including BMW Accessories, 24/7
-                        Roadside Assistance, Warranties,
-                        Accident Support, Servicing and more.</p>
-                        <Button>Find Out More</Button>
-                        </div> */}
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="BottomMainCardThree">
-                        <div className="BottomMainCardImg">
-                            <img src="/public/img/Group3.png" alt="" />
-                            <h2>DOWNLOAD THE MY BMW APP.</h2>
-                        </div>
-                        {/* <div className="BottomMainCardHover">
-                    <h1>BMW OWNER'S DIRECTORY.</h1>
-                    <p>As a proud owner, find everything you
-                        need for your BMW in one place,
-                        including BMW Accessories, 24/7
-                        Roadside Assistance, Warranties,
-                        Accident Support, Servicing and more.</p>
-                    <Button>Find Out More</Button>
-                    </div> */}
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="BottomMainCardFour">
-                        <div className="BottomMainCardImg">
-                            <img src="/public/img/Path2.png" alt="" />
-                            <h2>BMW OWNER'S DIRECTORY.</h2>
-                        </div>
-                        {/* <div className="BottomMainCardHover">
-                        <h1>BMW OWNER'S DIRECTORY.</h1>
-                        <p>As a proud owner, find everything you
-                        need for your BMW in one place,
-                        including BMW Accessories, 24/7
-                        Roadside Assistance, Warranties,
-                        Accident Support, Servicing and more.</p>
-                        <Button>Find Out More</Button>
-                        </div> */}
-                    </div>
-                </SwiperSlide>
-            </Swiper >
-        </>
+        </div>
     );
-}
+};
 
-
-
-export default BottomMain
+export default BottomMain;
