@@ -6,9 +6,7 @@ const MainComponent = () => {
     return (
         <div>
             <TopMain />
-            <br />
             <CenterMain />
-            <br />
             <BottomMain />
         </div>
     )
