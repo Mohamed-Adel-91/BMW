@@ -1,22 +1,24 @@
 import React from "react";
-import "./BottomMain.css";
+import style from "./BottomMain.module.css";
 
 interface CardProps {
     title: string;
     description: string;
     imageSrc: string;
+    hoverTitle: string;
 }
 
-const Card: React.FC<CardProps> = ({ title, description, imageSrc }) => {
+const Card: React.FC<CardProps> = ({ title, description, imageSrc, hoverTitle }) => {
     return (
-        <div className="card">
+        <div className={style.card}>
             <img src={imageSrc} alt={title} />
+            <div className={style.Gradient}></div>
             <h2>{title}</h2>
-            <div className="overlay">
-                <div className="overlay-content">
-                    <h3>{title}</h3>
+            <div className={style.overlay}>
+                <div className={style.overlayContent}>
+                    <h3>{hoverTitle}</h3>
                     <p>{description}</p>
-                    <button className="find-more-btn">Find More</button>
+                    <button className={style.findMoreBtn}>Find More</button>
                 </div>
             </div>
         </div>

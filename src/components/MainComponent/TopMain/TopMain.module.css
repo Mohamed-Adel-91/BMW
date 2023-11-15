@@ -1,0 +1,29 @@
+.TopMainElements .ShowSlidesButton {
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+    padding-right: 4%;
+    text-decoration: none;
+}
+.TopMainElements .ShowSlidesButton button{
+    text-decoration: none;
+    border: 1px solid #999;
+}
+
+.TopMainElements .ShowSlidesButton button svg{
+    width: 35px;
+    height: 35px;
+}
+
+.TopMainElements .ShowSlidesButton button:hover{
+    background-color: #999;
+}
+
+.ShowSlidesButton .Slides{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+

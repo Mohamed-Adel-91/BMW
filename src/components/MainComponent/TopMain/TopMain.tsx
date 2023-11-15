@@ -1,4 +1,4 @@
-import "./TopMain.css";
+import style from "./TopMain.module.css";
 import Slides from "./Slides";
 import CardsRow from "./CardsRow";
 import { useState } from "react";
@@ -7,22 +7,22 @@ import React from "react";
 interface TopMainProps {}
 
 const TopMain: React.FC<TopMainProps> = () => {
-    const [showDiv, setShowDiv] = useState(false);
+    const [showDiv, setShowDiv] = useState(true);
 
     const handleClickRow = () => {
-        setShowDiv(!showDiv);
+        setShowDiv(true);
     };
 
     const handleClickGrid = () => {
-        setShowDiv(!showDiv);
+        setShowDiv(false);
     };
 
     return (
-        <div className="TopMainElements">
-            <div className="ShowSlidesButton">
+        <div className={style.TopMainElements}>
+            <div className={style.ShowSlidesButton}>
                 <button
                     type="button"
-                    className="slidesRow"
+                    className={style.slidesRow}
                     onClick={handleClickRow}
                     aria-label="Toggle Rows"
                 >
@@ -72,7 +72,7 @@ const TopMain: React.FC<TopMainProps> = () => {
                 </button>
                 <button
                     type="button"
-                    className="slidesGrid"
+                    className={style.slidesGrid}
                     onClick={handleClickGrid}
                     aria-label="Toggle Grid"
                 >
@@ -145,7 +145,7 @@ const TopMain: React.FC<TopMainProps> = () => {
                     </svg>
                 </button>
             </div>
-            <div className="Slides">{showDiv ? <CardsRow /> : <Slides />}</div>
+            <div className={style.Slides}>{showDiv ? <CardsRow /> : <Slides />}</div>
         </div>
     );
 };
