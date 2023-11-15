@@ -1,5 +1,5 @@
 import images from './images.json'
-import "./Elements.css"
+import style from "./Elements.module.css"
 import { AiOutlineCheck } from 'react-icons/ai';
 
 interface Item {
@@ -10,8 +10,8 @@ interface Item {
 const Elements = () => {
     const imageElements = images.map((item: Item) => {
         return <div key={item.id}>
-            <p className='text-white elements'>
-                <div className='checkIcon'>
+            <p className={style.elements}>
+                <div className={style.checkIcon}>
                     <AiOutlineCheck />
                 </div>
                 {item.decs}
@@ -20,7 +20,7 @@ const Elements = () => {
     });
 
     return (
-        <div className='element'>
+        <div className={style.element}>
             {imageElements}
         </div>
     );

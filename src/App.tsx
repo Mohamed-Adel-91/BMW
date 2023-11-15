@@ -1,13 +1,10 @@
-import Footer from "./components/Footer/Footer"
-import Header from "./components/Header/Header"
-import MainComponent from "./components/MainComponent/MainComponent"
+import Discover from "./components/Discover/Discover"
+
 
 const App = () => {
   return (
     <div>
-      <Header />
-      <MainComponent />
-      <Footer />
+      <Discover />
     </div>
   )
 }

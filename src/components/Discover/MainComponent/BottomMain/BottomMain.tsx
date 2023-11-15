@@ -8,7 +8,7 @@ const BottomMain: React.FC = () => {
             title: "WHY CHOOSE BMW FINANCIAL SERVICES?",
             description:
                 "As a proud owner, find everything you need for your BMW in one place, including BMW Accessories, 24/7 Roadside Assistance, Warranties, Accident Support, Servicing and more.",
-            imageSrc: "/public/img/Group1.png",
+            imageSrc: "/public/img/Group1.png   ",
             hoverTitle: "BMW OWNER'S DIRECTORY",
         },
         {
