@@ -7,23 +7,26 @@ const BottomMain: React.FC = () => {
         {
             title: "WHY CHOOSE BMW FINANCIAL SERVICES?",
             description:
-                "As a proud owner, find everything you need for your BMW in one place, including BMW Accessories, 24/7 Roadside Assistance, Warranties, Accident Support, Servicing and more.",
+                "Discover flexible finance solutions across our range of BMW Approved Used Cars with BMW Financial Services. With something that matters so much, choose official finance from BMW.",
             imageSrc: "/public/img/Group1.png   ",
-            hoverTitle: "BMW OWNER'S DIRECTORY",
+            hoverTitle: "WHY CHOOSE BMW FINANCIAL SERVICES?",
+            button: "View More",
         },
         {
             title: "FIND A BMW CENTRE.",
             description:
-                "As a proud owner, find everything you need for your BMW in one place, including BMW Accessories, 24/7 Roadside Assistance, Warranties, Accident Support, Servicing and more.",
+                "Find Details of your closest BMW Centre.",
             imageSrc: "/public/img/Path2.png",
-            hoverTitle: "BMW OWNER'S DIRECTORY",
+            hoverTitle: "FIND A BMW CENTRE.",
+            button: "Locate A BMW Centre",
         },
         {
             title: "DOWNLOAD THE MY BMW APP.",
             description:
-                "As a proud owner, find everything you need for your BMW in one place, including BMW Accessories, 24/7 Roadside Assistance, Warranties, Accident Support, Servicing and more.",
+                "From sending your destination directly to your BMW, checking its status or locking remotely, plus easy access to BMW app remotely connects tou to your car and the world of BMW, anytime",
             imageSrc: "/public/img/Group3.png",
-            hoverTitle: "BMW OWNER'S DIRECTORY",
+            hoverTitle: "DOWNLOAD THE MY BMW APP.",
+            button: "Download Now",
         },
         {
             title: "BMW OWNER'S DIRECTORY.",
@@ -31,6 +34,7 @@ const BottomMain: React.FC = () => {
                 "As a proud owner, find everything you need for your BMW in one place, including BMW Accessories, 24/7 Roadside Assistance, Warranties, Accident Support, Servicing and more.",
             imageSrc: "/public/img/Path4.png",
             hoverTitle: "BMW OWNER'S DIRECTORY",
+            button: "Find Out More",
         },
     ];
 

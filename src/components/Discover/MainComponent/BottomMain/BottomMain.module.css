@@ -1,8 +1,24 @@
+.cardContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 92%;
+    padding-bottom: 100px;
+    -o-border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+}
+
+
 .card {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     position: relative;
-    width: 250px;
+    width: auto;
+    max-width: 800px;
+    max-height: 800px;
     height: auto;
     overflow: hidden;
     margin: 10px;
@@ -14,6 +30,8 @@
 }
 
 .card img {
+    max-width: 800px;
+    max-height: 800px;
     width: 100%;
     height: auto;
     -o-transition: transform 0.3s;
@@ -40,8 +58,8 @@
     z-index: 1;
     background: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0.1),
-        rgba(0, 0, 0, 0.9)
+        rgba(21, 21, 21, 0.1),
+        rgba(21, 21, 21, 0.9)
     );
     opacity: 1;
     -o-transition: opacity 0.3s;
@@ -56,7 +74,8 @@
     justify-content: center;
     position: absolute;
     width: 100%;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 24px;
     top: 88%;
     left: 50%;
     -o-transform: translate(-50%, -50%);
@@ -71,20 +90,21 @@
     transform: translate(-50%, -50%);
 }
 
+
 .overlay {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.95);
+    background-color: rgba(21, 21, 21, 0.99);
     color: #fff;
     -o-transform: translateY(100%);
-    -o-transition: transform 0.3s;
+    -o-transition: transform 0.7s;
     z-index: 3;
-    -webkit-transition: transform 0.3s;
-    -moz-transition: transform 0.3s;
-    -ms-transition: transform 0.3s;
-    transition: transform 0.3s;
+    -webkit-transition: transform 0.7s;
+    -moz-transition: transform 0.7s;
+    -ms-transition: transform 0.7s;
+    transition: transform 0.7s;
     -webkit-transform: translateY(100%);
     -moz-transform: translateY(100%);
     -ms-transform: translateY(100%);
@@ -93,16 +113,32 @@
 
 .overlayContent {
     position: relative;
-    top: 70px;
-    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    top: 30px;
+    padding: 20px;
     text-align: center;
+}
+.overlayContent h3{
+    font-weight:400;
+    font-size: 24px;
+}
+.overlayContent p{
+    font-weight:lighter;
+    font-size: 12px;
+}
+.overlayContent button {
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .findMoreBtn {
     border: none;
     padding: 10px;
     margin-top: 10px;
-    background-color: #3498db;
+    background-color: #0066b1;
     color: #fff;
     -o-border-radius: 0;
     cursor: pointer;
@@ -127,15 +163,3 @@
     align-items: center;
 }
 
-.cardContainer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 92%;
-    padding-bottom: 100px;
-    -o-border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    border-radius: 0;
-}

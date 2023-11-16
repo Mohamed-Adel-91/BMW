@@ -91,55 +91,55 @@ const TopMain: React.FC<TopMainProps> = () => {
                                 id="Path_10"
                                 data-name="Path 10"
                                 d="M637,425H623V411h14Z"
-                                fill="currentColor"
+                                fill="#37393b"
                             />
                             <path
                                 id="Path_11"
                                 data-name="Path 11"
                                 d="M655,425H641V411h14Z"
-                                fill="currentColor"
+                                fill="#37393b"
                             />
                             <path
                                 id="Path_12"
                                 data-name="Path 12"
                                 d="M673,425H659V411h14Z"
-                                fill="currentColor"
+                                fill="#37393b"
                             />
                             <path
                                 id="Path_13"
                                 data-name="Path 13"
                                 d="M637,443H623V429h14Z"
-                                fill="currentColor"
+                                fill="#37393b"
                             />
                             <path
                                 id="Path_14"
                                 data-name="Path 14"
                                 d="M655,443H641V429h14Z"
-                                fill="currentColor"
+                                fill="#37393b"
                             />
                             <path
                                 id="Path_15"
                                 data-name="Path 15"
                                 d="M673,443H659V429h14Z"
-                                fill="currentColor"
+                                fill="#37393b"
                             />
                             <path
                                 id="Path_16"
                                 data-name="Path 16"
                                 d="M637,461H623V447h14Z"
-                                fill="currentColor"
+                                fill="#37393b"
                             />
                             <path
                                 id="Path_17"
                                 data-name="Path 17"
                                 d="M655,461H641V447h14Z"
-                                fill="currentColor"
+                                fill="#37393b"
                             />
                             <path
                                 id="Path_18"
                                 data-name="Path 18"
                                 d="M673,461H659V447h14Z"
-                                fill="currentColor"
+                                fill="#37393b"
                             />
                         </g>
                     </svg>

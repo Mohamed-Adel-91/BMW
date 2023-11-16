@@ -2,22 +2,35 @@
     display: flex;
     justify-content: end;
     padding-top: 20px;
-    padding-right: 4%;
+    padding-right: 5%;
+    padding-bottom: 30px;
     text-decoration: none;
 }
 .TopMainElements .ShowSlidesButton button{
     text-decoration: none;
-    border: 1px solid #999;
+    border: 1px solid #fff;
 }
 
-.TopMainElements .ShowSlidesButton button svg{
-    width: 35px;
-    height: 35px;
+.TopMainElements .ShowSlidesButton button{
+    width: 50px;
+    height: 50px;
 }
 
-.TopMainElements .ShowSlidesButton button:hover{
-    background-color: #999;
+.TopMainElements .ShowSlidesButton .slidesRow svg{
+    padding: 2px;
+    width: auto;
+    max-width: 40px;
 }
+
+.TopMainElements .ShowSlidesButton .slidesGrid svg{
+    padding: 5px;
+    width: auto;
+    max-width: 40px;
+}
+
+/* .TopMainElements .ShowSlidesButton button:hover{
+    background-color: #37393b;
+} */
 
 .ShowSlidesButton .Slides{
     display: flex;
@@ -25,5 +38,9 @@
 }
 
 
+.TopMainElements .Slides {
+    max-width: 90%;
+    width: auto;
+    padding-left: 10%;
 
-
+}
