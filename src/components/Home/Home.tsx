@@ -1,9 +1,9 @@
 import NavBar from './NavBar/NavBar'
-import styles from './header.module.css'
+import styles from './Home.module.css'
 import Elements from './Elements/Elements'
 import Filter from './Filter/Filter'
 
-const Header = () => {
+const Home = () => {
     const { header } = styles
     return (
         <div>
@@ -21,4 +21,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Home

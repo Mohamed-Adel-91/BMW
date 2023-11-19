@@ -1,0 +1,28 @@
+.models{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.models .modelsSectionTwo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.models .modelsSectionTwo .search{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.models .modelsSectionTwo .product{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,11 +1,12 @@
 import Footer from "./Footer/Footer"
-import Header from "./Header/Header"
+import Home from "../Home/Home"
 import MainComponent from "./MainComponent/MainComponent"
+import style from "./Discover.module.css"
 
 const Discover = () => {
     return (
-        <div>
-            <Header />
+        <div className={style.discover}>
+            <Home />
             <MainComponent />
             <Footer />
         </div>
