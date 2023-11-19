@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Discover from "./components/Discover/Discover"
-import Models from "./components/Models/Models";
-// import Home from "./components/Home/Home";
+import Discover from "./Pages/Discover/Discover"
+import Models from "./Pages/Models/Models";
+
 
 
 const App = () => {
