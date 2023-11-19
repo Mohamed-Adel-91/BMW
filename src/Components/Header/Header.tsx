@@ -16,9 +16,7 @@ const Header = () => {
                 <Elements />
             </div>
             <Filter />
-
         </div>
-
     )
 }
 
