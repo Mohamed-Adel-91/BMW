@@ -1,18 +1,13 @@
-
+.header {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
 .header .top {
-    background-image: url("/public/img/headImg1.png");
-    background-size: cover;
     width: 100%;
     height: 100vh;
 }
 
-
-.header .top.anotherBackgroundImage {
-    background-image: url("/public/img/headImg2.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-}
 
 .header .top .elements {
     position: absolute;

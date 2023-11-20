@@ -1,19 +1,16 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Discover from "./Pages/Discover/Discover"
 import Models from "./Pages/Models/Models";
 
-
-
-const App = () => {
+const App: React.FC = () => {
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route path="/" element={<Discover />} />
-        <Route path="/Home" element={<Discover />} />
         <Route path="/Discover" element={<Discover />} />
         <Route path="/Models" element={<Models />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   )
 }
 
