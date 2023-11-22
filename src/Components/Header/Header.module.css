@@ -15,6 +15,11 @@
 }
 
 .header .filter {
+    position: absolute;
     width: 100%;
+    top: 102%;
 }
 
+.hidden {
+    display: none;
+}

@@ -1,25 +1,30 @@
+
 import Navbar from 'react-bootstrap/Navbar';
 import { AiOutlineSearch } from "react-icons/ai";
 import { CiLocationOn } from "react-icons/ci";
 import "./NavBar.css";
-// import { NavLink } from 'react-router-dom';
 import { Nav } from 'react-bootstrap';
 
 interface NavBarProps {
-    onModelLinkClick: () => void;
+    hideAdditionalDiv: () => void;
+    showAdditionalDiv: () => void;
 }
 
-function NavBar({ onModelLinkClick }: NavBarProps) {
+function NavBar({ hideAdditionalDiv, showAdditionalDiv }: NavBarProps) {
     return (
         <>
             <div className='nav navHome'>
                 <div className="container">
                     <div className="row">
                         <div className="col navLinkHome">
-                            <Nav.Link className='linkHome' onClick={onModelLinkClick} href='Models'>
+                            <Nav.Link className='linkHome' onClick={() => {
+                                hideAdditionalDiv();
+                            }} href='Models'>
                                 Models
                             </Nav.Link>
-                            <Nav.Link className='linkHome' href='Discover'>
+                            <Nav.Link className='linkHome' onClick={() => {
+                                showAdditionalDiv();
+                            }} href='Discover'>
                                 Discover
                             </Nav.Link>
                         </div>
