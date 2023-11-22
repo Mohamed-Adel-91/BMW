@@ -5,26 +5,17 @@ import { CiLocationOn } from "react-icons/ci";
 import "./NavBar.css";
 import { Nav } from 'react-bootstrap';
 
-interface NavBarProps {
-    hideAdditionalDiv: () => void;
-    showAdditionalDiv: () => void;
-}
-
-function NavBar({ hideAdditionalDiv, showAdditionalDiv }: NavBarProps) {
+function NavBar() {
     return (
         <>
             <div className='nav navHome'>
                 <div className="container">
                     <div className="row">
                         <div className="col navLinkHome">
-                            <Nav.Link className='linkHome' onClick={() => {
-                                hideAdditionalDiv();
-                            }} href='Models'>
+                            <Nav.Link className='linkHome' href='Models'>
                                 Models
                             </Nav.Link>
-                            <Nav.Link className='linkHome' onClick={() => {
-                                showAdditionalDiv();
-                            }} href='Discover'>
+                            <Nav.Link className='linkHome' href='Discover'>
                                 Discover
                             </Nav.Link>
                         </div>
