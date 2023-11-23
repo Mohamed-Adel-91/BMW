@@ -1,0 +1,15 @@
+.productSide {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.productSide .sortBy {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30%;
+    width: 100%;
+}
