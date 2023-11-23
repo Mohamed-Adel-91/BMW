@@ -8,8 +8,8 @@ import NavBar from "../../Components/Header/NavBar/NavBar"
 const Models = () => {
     return (
         <div className={style.models}>
-            <NavBar />
-            <Banner title="APPROVED USED BMW 3 SERIES." src="/public/img/headImg2.jpg" desc="" />
+            <div className={style.navbar}><NavBar /></div>
+            <div className={style.banner}><Banner title="APPROVED USED BMW 3 SERIES." src="/public/img/02.jpeg" desc="" /></div>
             <section className={style.modelsSectionTwo}>
                 <div className={style.search}>
                     <Search />
@@ -18,7 +18,7 @@ const Models = () => {
                     <Product />
                 </div>
             </section>
-            <Footer />
+            <div className={style.footer}><Footer /></div>
         </div>
     )
 }
