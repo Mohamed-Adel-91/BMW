@@ -5,8 +5,15 @@ import "./NavBar.module.css";
 import style from "./NavBar.module.css";
 import { Nav, NavbarBrand } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
+import { useState } from "react";
+import { Form, Input } from "reactstrap";
 
 function NavBar() {
+    const [isBlockVisible, setIsBlockVisible] = useState(false);
+
+    const handleIconClick = () => {
+        setIsBlockVisible(!isBlockVisible);
+    };
     return (
         <Nav className={style.navBar}>
             <Nav className={style.navDetails}>
@@ -18,8 +25,22 @@ function NavBar() {
                         Discover
                     </NavLink>
                 </Nav>
+                {isBlockVisible && (
+                    <Form id="active" className={style.searchBar}>
+                        <Input
+                            name="search"
+                            type="search"
+                            className={style.search}
+                            placeholder="Search..."
+                        />
+                    </Form>
+                )}
                 <Nav className={style.navIcons}>
-                    <Link className={style.icons} to="">
+                    <Link
+                        className={style.icons}
+                        onClick={handleIconClick}
+                        to=""
+                    >
                         <AiOutlineSearch />
                     </Link>
                     <Link className={style.icons} to="">

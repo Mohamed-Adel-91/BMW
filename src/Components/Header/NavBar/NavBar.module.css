@@ -15,6 +15,38 @@
     padding: 0px;
 }
 
+.navBar .navDetails .searchBar {
+    width: 50%;
+    padding-top: 10px;
+}
+
+.navBar .navDetails .searchBar .search {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+    color: #fff;
+    padding: 3px;
+    padding-left: 10px;
+    cursor: text;
+    width: 100%;
+    -o-border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+}
+
+.navbar .navDetails .searchBar .search::target-text {
+    background-color: yellow;
+}
+
+.navBar .navDetails .searchBar .search::placeholder {
+    color: #ffffffb6;
+}
+
 .navBar .navDetails .navLinks {
     display: flex;
     justify-content: space-evenly;
