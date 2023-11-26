@@ -13,3 +13,11 @@
     margin-right: 30%;
     width: 100%;
 }
+
+.productSide .Cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px 40px;
+    box-sizing: border-box;
+}

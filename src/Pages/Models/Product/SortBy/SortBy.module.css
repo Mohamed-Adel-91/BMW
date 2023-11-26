@@ -1,19 +1,19 @@
 option {
-    border-radius: 0;
+    -o-border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
-    -o-border-radius: 0;
+    border-radius: 0;
 }
 
 #sort {
-    border-radius: 0;
+    -o-border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
-    -o-border-radius: 0;
+    border-radius: 0;
 }
 
-#label{
+#label {
     padding-left: 7px;
 }
