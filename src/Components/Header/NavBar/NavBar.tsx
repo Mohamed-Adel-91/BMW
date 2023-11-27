@@ -1,12 +1,13 @@
 import { AiOutlineSearch } from "react-icons/ai";
 import { CiLocationOn } from "react-icons/ci";
-import { VscAccount } from "react-icons/vsc";
 import "./NavBar.module.css";
 import style from "./NavBar.module.css";
 import { Nav, NavbarBrand } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 import { Form, Input } from "reactstrap";
+import Login from "../../Login/Login";
+
 
 function NavBar() {
     const [isBlockVisible, setIsBlockVisible] = useState(false);
@@ -46,8 +47,8 @@ function NavBar() {
                     <Link className={style.icons} to="">
                         <CiLocationOn />
                     </Link>
-                    <Link className={style.icons} to="">
-                        <VscAccount />
+                    <Link className={style.icons} to=''>
+                        <Login args={undefined} />
                     </Link>
                 </Nav>
             </Nav>
