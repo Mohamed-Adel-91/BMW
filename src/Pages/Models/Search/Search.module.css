@@ -1,0 +1,15 @@
+.searchBody {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 20px;
+    flex-direction: column;
+}
+
+.searchBody .filterBox {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}

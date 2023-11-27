@@ -18,14 +18,14 @@
 }
 
 .models .modelsSectionTwo .search {
-    width: 35%;
+    width: 25%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .models .modelsSectionTwo .product {
-    width: 65%;
+    width: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
