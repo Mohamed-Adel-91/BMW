@@ -14,10 +14,10 @@
     "kind" : "Petrol",
     "model": "Jun 2021",
     "chassisNo":"RE21HWF",
-    "km": "12,000 Km",
-    "cashPrice": "1.200.000 EGP",
-    "perMonth": "30.000 EGP",
-    "deposit": "90.000 EGP"
+    "km": 12000 ,
+    "cashPrice": "1.200.000",
+    "perMonth": "30.000",
+    "deposit": "90.000"
   },
   {
     "id":2,
@@ -34,10 +34,10 @@
     "kind" : "Petrol",
     "model": "Jun 2021",
     "chassisNo":"RE21HWF",
-    "km": "12,000 Km",
-    "cashPrice": "1.200.000 EGP",
-    "perMonth": "30.000 EGP",
-    "deposit": "90.000 EGP"
+    "km": 12000 ,
+    "cashPrice": "1.200.000",
+    "perMonth": "30.000",
+    "deposit": "90.000"
   },
   {
     "id":3,
@@ -54,10 +54,10 @@
     "kind" : "Petrol",
     "model": "Jun 2021",
     "chassisNo":"RE21HWF",
-    "km": "12,000 Km",
-    "cashPrice": "1.200.000 EGP",
-    "perMonth": "30.000 EGP",
-    "deposit": "90.000 EGP"
+    "km": 12000 ,
+    "cashPrice": "1.200.000",
+    "perMonth": "30.000",
+    "deposit": "90.000"
   },
   {
     "id":4,
@@ -74,10 +74,10 @@
     "kind" : "Petrol",
     "model": "Jun 2021",
     "chassisNo":"RE21HWF",
-    "km": "12,000 Km",
-    "cashPrice": "1.200.000 EGP",
-    "perMonth": "30.000 EGP",
-    "deposit": "90.000 EGP"
+    "km": 12000 ,
+    "cashPrice": "1.200.000",
+    "perMonth": "30.000",
+    "deposit": "90.000"
   },
   {
     "id":5,
@@ -94,10 +94,10 @@
     "kind" : "Petrol",
     "model": "Jun 2021",
     "chassisNo":"RE21HWF",
-    "km": "12,000 Km",
-    "cashPrice": "1.200.000 EGP",
-    "perMonth": "30.000 EGP",
-    "deposit": "90.000 EGP"
+    "km": 12000 ,
+    "cashPrice": "1.200.000",
+    "perMonth": "30.000",
+    "deposit": "90.000"
   },
   {
     "id":6,
@@ -114,9 +114,9 @@
     "kind" : "Petrol",
     "model": "Jun 2021",
     "chassisNo":"RE21HWF",
-    "km": "12,000 Km",
-    "cashPrice": "1.200.000 EGP",
-    "perMonth": "30.000 EGP",
-    "deposit": "90.000 EGP"
+    "km": 12000 ,
+    "cashPrice": "1.200.000",
+    "perMonth": "30.000",
+    "deposit": "90.000"
   }
 ]

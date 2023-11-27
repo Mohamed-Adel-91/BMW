@@ -28,7 +28,7 @@ interface Items {
     kind: string,
     model: string,
     chassisNo: string,
-    km: string,
+    km: number,
     cashPrice: string,
     perMonth: string,
     deposit: string
@@ -74,9 +74,9 @@ const Cards = () => {
                         </div>
                     </div>
                 </div>
-                <CardBody>
-                    <CardTitle tag="h5">{items.name}</CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h6">
+                <CardBody className={style.cardBody}>
+                    <CardTitle className={style.CardTitle} tag="h5">{items.name}</CardTitle>
+                    <CardSubtitle className={style.CardSubtitle} tag="h6">
                         {items.category}
                     </CardSubtitle>
                     <div className={style.centerBar}>
@@ -84,20 +84,20 @@ const Cards = () => {
                         <div>{items.kind}</div>
                         <div>{items.model}</div>
                         <div>{items.chassisNo}</div>
-                        <div>{items.km}</div>
+                        <span>{items.km} KM</span>
                     </div>
                     <div className={style.prices}>
                         <div className={style.cashPrice}>
-                            <span>Cash Price</span>
-                            <span>{items.cashPrice}</span>
+                            <p>Cash Price</p>
+                            <span>{items.cashPrice} <div>EGP</div></span>
                         </div>
                         <div className={style.perMonth}>
-                            <span>Per Month</span>
-                            <span>{items.perMonth}</span>
+                            <p>Per Month</p>
+                            <span>{items.perMonth} <div>EGP</div></span>
                         </div>
                         <div className={style.deposit}>
-                            <span>Your Deposit</span>
-                            <span>{items.deposit}</span>
+                            <p>Your Deposit</p>
+                            <span>{items.deposit} <div>EGP</div></span>
                         </div>
                     </div>
                     <div className={style.cardFooter}>
@@ -107,8 +107,10 @@ const Cards = () => {
                                 <li><a href="#">View Details</a></li>
                             </ul>
                         </div>
-                        <Button>Reserve & Buy</Button>
-                        <a href="#">Learn How To Reserve A Vehicle For E100</a>
+                        <div className={style.sideButtonDiv}>
+                            <Button>Reserve & Buy</Button>
+                            <a href="#">Learn How To Reserve A Vehicle For E100</a>
+                        </div>
                     </div>
                 </CardBody>
             </Card>
