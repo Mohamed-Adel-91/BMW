@@ -1,0 +1,28 @@
+.models {
+    font-family: "BMWTYPENEXT-LIGHT";
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.models .navbar {
+    position: absolute;
+    top: 1%;
+    width: 100%;
+    z-index: 10;
+}
+
+.models .banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.models .footer {
+    position: relative;
+    width: 100%;
+}

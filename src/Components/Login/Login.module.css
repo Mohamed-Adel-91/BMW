@@ -1,12 +1,63 @@
 .loginPopUp .loginButton {
     box-shadow:none;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 25px;
     padding: 0;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     color: #fff;
 }
+.loginPopUp .custom_modal_class {
+    border-radius: 0 !important;
+}
+.loginPopUp #model.modal-content {
+    border-radius: 0 !important;
+}
+.loginPopUp #model.modal-dialog {
+    border-radius: 0 !important;
+}
+.custom_modal_class {
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -ms-border-radius: 0px !important;
+    -o-border-radius: 0px !important;
+}
+#model.modal .modal-content {
+    border-radius: 0px !important;
+}
+#model.modal-content {
+    border-radius: 0 !important;
+
+}
+#model.modal-dialog {
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+
 
 .loginPopUp .loginButton:hover{
     color: #0066b1;
 }
+
+.buttonsDiv {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10px;
+    align-items: flex-end;
+    padding-right: 20px;
+}
+.signDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    column-gap: 10px;
+    padding-left: 20px;
+}
+
+.signLink {
+    color: black;
+}
+
