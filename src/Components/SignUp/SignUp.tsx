@@ -79,7 +79,6 @@ const SignUp = () => {
                                 </FormGroup>
                             </Col>
                         </Row>
-
                         <Row>
                             <Col md={3}>
                                 <FormGroup>
