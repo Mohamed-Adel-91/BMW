@@ -45,16 +45,6 @@ const SignUp = () => {
                             </Col>
                         </Row>
                         <FormGroup>
-                            <Label for="exampleAddress">
-                                Address
-                            </Label>
-                            <Input
-                                id="exampleAddress"
-                                name="address"
-                                placeholder="1234 Main St"
-                            />
-                        </FormGroup>
-                        <FormGroup>
                             <Label for="exampleFile">
                                 Upload your image profile
                             </Label>
@@ -65,7 +55,19 @@ const SignUp = () => {
                             />
                         </FormGroup>
                         <Row>
-                            <Col md={6}>
+                            <Col md={9}>
+                                <FormGroup>
+                                    <Label for="exampleAddress">
+                                        Address
+                                    </Label>
+                                    <Input
+                                        id="exampleAddress"
+                                        name="address"
+                                        placeholder="1234 Main St"
+                                    />
+                                </FormGroup>
+                            </Col>
+                            <Col md={3}>
                                 <FormGroup>
                                     <Label for="exampleCity">
                                         City
@@ -76,7 +78,10 @@ const SignUp = () => {
                                     />
                                 </FormGroup>
                             </Col>
-                            <Col md={4}>
+                        </Row>
+
+                        <Row>
+                            <Col md={3}>
                                 <FormGroup>
                                     <Label for="exampleState">
                                         State
@@ -87,7 +92,7 @@ const SignUp = () => {
                                     />
                                 </FormGroup>
                             </Col>
-                            <Col md={2}>
+                            <Col md={3}>
                                 <FormGroup>
                                     <Label for="exampleZip">
                                         Zip
@@ -98,20 +103,18 @@ const SignUp = () => {
                                     />
                                 </FormGroup>
                             </Col>
+                            <Col md={6}>
+                                <FormGroup>
+                                    <Label for="exampleTel">
+                                        Phone Number
+                                    </Label>
+                                    <Input
+                                        id="exampleTel"
+                                        type="tel"
+                                    />
+                                </FormGroup>
+                            </Col>
                         </Row>
-                        <FormGroup check>
-                            <Input
-                                id="exampleCheck"
-                                name="check"
-                                type="checkbox"
-                            />
-                            <Label
-                                check
-                                for="exampleCheck"
-                            >
-                                Check me out
-                            </Label>
-                        </FormGroup>
                         <FormGroup row>
                             <Label
                                 for="exampleText"
@@ -127,8 +130,8 @@ const SignUp = () => {
                                 />
                             </Col>
                         </FormGroup>
-                        <Button id="btn">
-                            Sign in
+                        <Button color="primary" className="mr-4 mt-2">
+                            Submit
                         </Button>
                     </Form>
             </div>
