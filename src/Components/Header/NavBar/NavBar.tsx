@@ -8,12 +8,13 @@ import { useState } from "react";
 import { Form, Input } from "reactstrap";
 import Login from "../../Login/Login";
 
-
 function NavBar() {
     const [isBlockVisible, setIsBlockVisible] = useState(false);
+    const [isMoved, setIsMoved] = useState(false);
 
     const handleIconClick = () => {
         setIsBlockVisible(!isBlockVisible);
+        setIsMoved(!isMoved);
     };
     return (
         <Nav className={style.navBar}>
@@ -27,11 +28,16 @@ function NavBar() {
                     </NavLink>
                 </Nav>
                 {isBlockVisible && (
-                    <Form id="active" className={style.searchBar}>
+                    <Form
+                        id="active"
+                        className={`${style.searchBar}
+                    ${isMoved ? "move-right" : ""}`}
+                    >
                         <Input
                             name="search"
                             type="search"
-                            className={style.search}
+                            className={`${style.search} 
+                            `}
                             placeholder="Search..."
                         />
                     </Form>
@@ -40,6 +46,7 @@ function NavBar() {
                     <Link
                         className={style.icons}
                         onClick={handleIconClick}
+                        id="moveButton"
                         to=""
                     >
                         <AiOutlineSearch />
@@ -47,7 +54,7 @@ function NavBar() {
                     <Link className={style.icons} to="">
                         <CiLocationOn />
                     </Link>
-                    <Link className={style.icons} to=''>
+                    <Link className={style.icons} to="">
                         <Login args={undefined} />
                     </Link>
                 </Nav>

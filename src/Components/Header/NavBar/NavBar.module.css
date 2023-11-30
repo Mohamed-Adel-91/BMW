@@ -16,8 +16,20 @@
 }
 
 .navBar .navDetails .searchBar {
-    width: 50%;
-    padding-top: 10px;
+    width: 500px;
+    height: 40px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 1.5px solid #ffffffb6;
+    position: absolute;
+    top: 30px;
+    left: 400px;
+    -o-transition: left 0.5s ease;
+    -webkit-transition: left 0.5s ease;
+    -moz-transition: left 0.5s ease;
+    -ms-transition: left 0.5s ease;
+    transition: left 0.5s ease;
 }
 
 .navBar .navDetails .searchBar .search {
@@ -29,6 +41,7 @@
     color: #fff;
     padding: 3px;
     padding-left: 10px;
+    padding-bottom: 0px;
     cursor: text;
     width: 100%;
     -o-border-radius: 0;
@@ -80,6 +93,7 @@
     color: #fff;
     font-size: 25px;
     padding-bottom: 10px;
+    cursor: pointer;
 }
 
 .navBar .navDetails .navIcons .icons:hover {

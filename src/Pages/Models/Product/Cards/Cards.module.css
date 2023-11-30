@@ -1,9 +1,9 @@
 /* Card Head */
-a{
+a {
     text-decoration: none;
     color: #fff;
 }
-.Cards{
+.Cards {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -11,26 +11,26 @@ a{
     column-gap: 30px;
 }
 
-.Cards .oneCard{
+.Cards .oneCard {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    border-radius: 0;
+    -o-border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
-    -o-border-radius: 0;
+    border-radius: 0;
 }
 
-.Cards .oneCard .headDiv{
+.Cards .oneCard .headDiv {
     position: relative;
     display: flex;
     justify-content: center;
     width: 100%;
     height: 300px;
 }
-.Cards .oneCard .headDiv .carImg{
+.Cards .oneCard .headDiv .carImg {
     position: absolute;
     top: 0;
     left: 0;
@@ -38,27 +38,26 @@ a{
     z-index: 0;
 }
 
-.Cards .oneCard .headDiv .specification{
+.Cards .oneCard .headDiv .specification {
     position: absolute;
     top: 10px;
     left: 7px;
     color: #fff;
-    background-color: #37393b ;
+    background-color: #37393b;
     font-size: 8px;
     padding: 7px;
 }
 
-.Cards .oneCard .headDiv .logoDiv{
+.Cards .oneCard .headDiv .logoDiv {
     position: absolute;
     top: 10px;
     right: 14px;
-
 }
 
-.Cards .oneCard .headDiv .logoDiv .logo{
+.Cards .oneCard .headDiv .logoDiv .logo {
     height: 50px;
     width: 50px;
-    box-shadow:#37393b;
+    box-shadow: #37393b;
 }
 
 .Cards .oneCard .headDiv .picNo {
@@ -68,24 +67,24 @@ a{
     position: absolute;
     bottom: 10px;
     left: 7px;
-    background-color: #37393b ;
+    background-color: #37393b;
     color: #fff;
     font-size: 12px;
     padding: 7px;
 }
 
-.Cards .oneCard .headDiv .picNo a{
+.Cards .oneCard .headDiv .picNo a {
     text-decoration: none;
     color: #fff;
 }
 
-#smallIcon{
+#smallIcon {
     font-size: 35px;
     text-decoration: none;
     color: #fff;
 }
 
-.Cards .oneCard .headDiv .sideDiv{
+.Cards .oneCard .headDiv .sideDiv {
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -97,7 +96,7 @@ a{
     row-gap: 5px;
 }
 
-.Cards .oneCard .headDiv .sideDiv .location{
+.Cards .oneCard .headDiv .sideDiv .location {
     display: flex;
     justify-content: space-between;
     column-gap: 15px;
@@ -106,12 +105,12 @@ a{
     font-size: 12px;
 }
 
-.Cards .oneCard .headDiv .sideDiv .location a{
+.Cards .oneCard .headDiv .sideDiv .location a {
     text-decoration: none;
     color: #fff;
 }
 
-.Cards .oneCard .headDiv .sideDiv .favorite{
+.Cards .oneCard .headDiv .sideDiv .favorite {
     display: flex;
     justify-content: space-between;
     column-gap: 15px;
@@ -120,12 +119,12 @@ a{
     font-size: 12px;
 }
 
-.Cards .oneCard .headDiv .sideDiv .favorite a{
+.Cards .oneCard .headDiv .sideDiv .favorite a {
     text-decoration: none;
     color: #fff;
 }
 
-.Cards .oneCard .headDiv .sideDiv .spec{
+.Cards .oneCard .headDiv .sideDiv .spec {
     display: flex;
     justify-content: space-between;
     column-gap: 15px;
@@ -134,7 +133,7 @@ a{
     font-size: 12px;
 }
 
-.Cards .oneCard .headDiv .sideDiv .spec a{
+.Cards .oneCard .headDiv .sideDiv .spec a {
     text-decoration: none;
     color: #fff;
 }
@@ -147,20 +146,20 @@ a{
     flex-direction: column;
 }
 
-.Cards .oneCard .cardBody .CardTitle{
+.Cards .oneCard .cardBody .CardTitle {
     font-weight: bold;
     font-size: 20px;
     padding: 5px;
 }
 
-.Cards .oneCard .cardBody .CardSubtitle{
+.Cards .oneCard .cardBody .CardSubtitle {
     color: #0066b1;
     padding: 10px;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-.Cards .oneCard .cardBody .centerBar{
+.Cards .oneCard .cardBody .centerBar {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -169,53 +168,48 @@ a{
     padding: 7px;
 }
 
-.Cards .oneCard .cardBody .centerBar div{
+.Cards .oneCard .cardBody .centerBar div {
     border-right: 1px solid #0066b1;
     padding-right: 10px;
 }
 
-.Cards .oneCard .cardBody .prices{
+.Cards .oneCard .cardBody .prices {
     display: flex;
     justify-content: space-between;
     font-size: 10px;
     margin-top: 10px;
     width: 100%;
-
 }
 
-.Cards .oneCard .cardBody .prices .cashPrice{
+.Cards .oneCard .cardBody .prices .cashPrice {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
-    border-right: 1px solid #e6e6e6 ;
+    border-right: 1px solid #e6e6e6;
     padding: 10px;
 }
 
-
-
-.Cards .oneCard .cardBody .prices .perMonth{
+.Cards .oneCard .cardBody .prices .perMonth {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
-    border-right: 1px solid #e6e6e6 ;
+    border-right: 1px solid #e6e6e6;
     padding: 10px;
 }
 
-.Cards .oneCard .cardBody .prices .deposit{
+.Cards .oneCard .cardBody .prices .deposit {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
     padding: 10px;
 }
-
-
 
 .Cards .oneCard .cardBody .prices .cashPrice span,
 .Cards .oneCard .cardBody .prices .perMonth span,
-.Cards .oneCard .cardBody .prices .deposit span{
+.Cards .oneCard .cardBody .prices .deposit span {
     font-weight: bold;
     font-size: 18px;
     display: flex;
@@ -224,54 +218,52 @@ a{
     align-items: end;
 }
 
-
 .Cards .oneCard .cardBody .prices .cashPrice span div,
 .Cards .oneCard .cardBody .prices .perMonth span div,
-.Cards .oneCard .cardBody .prices .deposit span div{
+.Cards .oneCard .cardBody .prices .deposit span div {
     font-size: 8px;
 }
 
-.Cards .oneCard .cardBody .cardFooter{
+.Cards .oneCard .cardBody .cardFooter {
     display: flex;
     justify-content: space-around;
     width: 100%;
     margin-top: 30px;
 }
 
-.Cards .oneCard .cardBody .cardFooter .sideList{
+.Cards .oneCard .cardBody .cardFooter .sideList {
     font-size: 10px;
     width: 40%;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-
 }
 
-.Cards .oneCard .cardBody .cardFooter .sideList ul{
+.Cards .oneCard .cardBody .cardFooter .sideList ul {
     list-style-type: square;
 }
 
-.Cards .oneCard .cardBody .cardFooter .sideButtonDiv{
+.Cards .oneCard .cardBody .cardFooter .sideButtonDiv {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     flex-direction: column;
-    row-gap: 20px ;
+    row-gap: 20px;
     font-size: 10px;
     width: 60%;
 }
 
-.Cards .oneCard .cardBody .cardFooter .sideButtonDiv button{
+.Cards .oneCard .cardBody .cardFooter .sideButtonDiv button {
     background-color: #0066b1;
-    border-radius: 0;
+    -o-border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
-    -o-border-radius: 0;
+    border-radius: 0;
     width: 120px;
     font-size: 12px;
 }
 
-.Cards .oneCard .cardBody .cardFooter .sideButtonDiv a{
+.Cards .oneCard .cardBody .cardFooter .sideButtonDiv a {
     color: #000;
 }
