@@ -28,9 +28,10 @@
     max-width: 40px;
 }
 
-/* .TopMainElements .ShowSlidesButton button:hover{
-    background-color: #37393b;
-} */
+.TopMainElements .ShowSlidesButton button svg g rect:hover{
+
+    fill: #fff;
+}
 
 .ShowSlidesButton .Slides{
     display: flex;

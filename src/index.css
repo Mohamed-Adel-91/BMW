@@ -4,19 +4,31 @@
     padding: 0;
     font-family: "BMWTYPENEXT-LIGHT", sans-serif;
     font-weight: 300;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
 }
 
 html {
     scroll-behavior: smooth;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
 }
 
 body {
     background-repeat: no-repeat;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
 }
 
-.py-home {
-    padding: 0 5% !important;
-}
 
 @font-face {
     font-family: "BMWTYPENEXT-LIGHT";

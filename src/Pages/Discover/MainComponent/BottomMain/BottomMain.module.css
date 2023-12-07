@@ -1,8 +1,8 @@
 .cardContainer {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    width: 92%;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
     padding-bottom: 100px;
     -o-border-radius: 0;
     -webkit-border-radius: 0;
@@ -14,10 +14,10 @@
 
 .card {
     display: flex;
-    flex-wrap: nowrap;
+    justify-content: center;
+    flex-wrap: wrap;
     position: relative;
-    width: auto;
-    max-width: 800px;
+    width: 400px;
     max-height: 800px;
     height: auto;
     overflow: hidden;
@@ -28,9 +28,28 @@
     -ms-border-radius: 0;
     border-radius: 0;
 }
+@media (min-width:1026px) and (max-width:1441px){
+    .card {
+        width: 300px;
+        height: 370px;
+    }
+}
+@media (min-width:799px) and (max-width:1025px){
+    .card {
+        width: 200px;
+        height: 370px;
+    }
+}
+
+@media  (max-width:798px){
+    .card {
+        width: 290px;
+        height: 370px;
+    }
+}
 
 .card img {
-    max-width: 800px;
+    max-width: 700px;
     max-height: 800px;
     width: 100%;
     height: auto;
@@ -75,7 +94,7 @@
     position: absolute;
     width: 100%;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 16px;
     top: 88%;
     left: 50%;
     -o-transform: translate(-50%, -50%);
@@ -123,7 +142,7 @@
 }
 .overlayContent h3{
     font-weight:400;
-    font-size: 24px;
+    font-size: 16px;
 }
 .overlayContent p{
     font-weight:lighter;
@@ -131,7 +150,7 @@
 }
 .overlayContent button {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .findMoreBtn {

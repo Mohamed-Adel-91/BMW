@@ -1,11 +1,12 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import './Filter.css'
+import { Row } from 'reactstrap';
 
 function Filter() {
     return (
-        <Form className="con p-4">
-            <fieldset className='row'>
+        <Row className="con p-4">
+            <Form.Group className="row">
                 <Form.Group className="col">
                     <Form.Control className="col" placeholder="Postcode/Location" />
                 </Form.Group>
@@ -30,9 +31,12 @@ function Filter() {
                         <option>BMW 520e</option>
                     </Form.Select>
                 </Form.Group>
-                <Button type="submit" className="col-3 search">Search</Button>
-            </fieldset>
-        </Form>
+                <Form.Group className="col">
+                    <Button type="submit" className="search">Search</Button>
+                </Form.Group>
+
+            </Form.Group>
+        </Row>
     );
 }
 

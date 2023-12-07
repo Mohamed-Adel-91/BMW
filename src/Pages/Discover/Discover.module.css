@@ -24,16 +24,24 @@
     height: 100vh;
 }
 .discover .head .element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
     position: absolute;
-    top: 80%;
     left: 0;
+    bottom: 120px;
     width: 100%;
 }
 
 .discover .head .filter {
     position: absolute;
-    top: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    bottom: 0;
     width: 100%;
+    z-index: 10;
 }
 
 .discover .mainCom{
