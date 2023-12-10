@@ -1,6 +1,6 @@
-import "./Filter.css";
 import { Row, Col, Button } from "reactstrap";
 import { FormControl, FormSelect } from "react-bootstrap";
+import "./Filter.css";
 
 function Filter() {
     return (
@@ -9,21 +9,36 @@ function Filter() {
                 <FormControl className="col" placeholder="Postcode/Location" />
             </Col>
             <Col>
-                <FormSelect className="col" placeholder="Nationwide">
+                <FormSelect
+                    title="Nationwide-1"
+                    className="col"
+                    placeholder="Nationwide-1"
+                    aria-labelledby="Select Nationwide option"
+                >
                     <option>Nationwide-1</option>
                     <option>Nationwide-2</option>
                     <option>Nationwide-3</option>
                 </FormSelect>
             </Col>
             <Col>
-                <FormSelect className="col" placeholder="Nationwide">
+                <FormSelect
+                    title="Nationwide-2"
+                    className="col"
+                    placeholder="Nationwide-2"
+                    aria-labelledby="Select Another Nationwide option"
+                >
                     <option>Nationwide-1</option>
                     <option>Nationwide-2</option>
                     <option>Nationwide-3</option>
                 </FormSelect>
             </Col>
             <Col>
-                <FormSelect className="col" placeholder="Select Model">
+                <FormSelect
+                    title="Select-Model"
+                    className="col"
+                    placeholder="Select Model"
+                    aria-labelledby="Select Model option"
+                >
                     <option>BMW 320i</option>
                     <option>BMW X6</option>
                     <option>BMW 520e</option>
