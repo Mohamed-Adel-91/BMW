@@ -1,66 +1,100 @@
 .slides{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
-    padding: 1% 5%;
+    gap: 20px;
 }
 
-.Container {
+.slides .Container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 30%;
+    width: 100%;
     height: auto;
-    margin-bottom: 50px;
     overflow-x: hidden;
     padding: 0 30px;
     position: relative;
+    border-color: #fff ;
 }
-.Container p{
-    color: #999;
+
+.Container .line_one{
+    position: relative;
 }
+
 
 .Container .line_one img{
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    object-fit:contain;
     width: 90%;
+}
+.Container .line_one .backImg{
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 100px;
+    z-index: -1;
+    opacity: 70%;
+    position: absolute;
+    bottom: 0;
 }
 
 .Container .line_two{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    text-align: center;
     width: 100%;
-    padding: 1% 10%;
     font-weight: bold;
+    padding-top: 10px;
 }
 .Container .line_two .price{
-    color: #1c69d4 !important;
-    font-size: 1.5rem;
-    font-weight: 700;
+    color: #1c69d4;
+    font-size: .9rem;
+    font-weight: bold;
+    padding-top: 8px;
+}
+.Container .line_two .name{
+    font-size: 1rem;
+    font-weight: bold;
 }
 
-.Container .line_three p{
-    color: #1c69d4 !important;
+.Container .line_three{
+    color: #1c69d4;
+    font-size: 0.85rem;
+    padding-top: 10px;
 }
 
 .Container .line_four{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
     width: 100%;
-    padding: 1% 10%;
-    
+    height: auto;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-inline: 10px;
 }
-.Container .line_four p{
-    color: #3484f4 !important;
+.Container .line_four .model, 
+.Container .line_four .km,
+.Container .line_four .color, 
+.Container .line_four .kind, 
+.Container .line_four .fender {
+    min-width: 22%;
+    padding-inline: 3px;
 }
 
 .Container .line_five{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 1% 10%;
+    color: #37393b;
+    padding-top: 10px;
+    font-size: .75rem;
+}
+
+.Container .cardBody{
+    background-color:#e6e6e6;
 }

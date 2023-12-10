@@ -1,5 +1,3 @@
-// ProductSlider.tsx
-
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -7,7 +5,6 @@ import 'slick-carousel/slick/slick-theme.css';
 import ProductCard from './ProductCard';
 import styles from './style.module.css';
 
-// Define the Product type here or import it from the file where it's defined
 interface Product {
     id: number;
     src: string;

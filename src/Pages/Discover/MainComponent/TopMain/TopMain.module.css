@@ -38,7 +38,5 @@
 }
 
 .TopMainElements .Slides {
-    max-width: 95%;
-    width: auto;
-    padding-left: 5%;
+    width: 100%;
 }

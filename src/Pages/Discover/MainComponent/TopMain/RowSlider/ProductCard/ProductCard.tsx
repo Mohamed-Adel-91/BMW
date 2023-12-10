@@ -1,8 +1,6 @@
-// ProductCard.tsx
 
 import React from 'react';
 import styles from './style.module.css';
-// import style from "../Slides.module.css"
 
 interface Product {
     id: number;
