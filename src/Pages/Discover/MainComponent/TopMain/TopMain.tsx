@@ -3,6 +3,7 @@ import Slides from "./GridSlider/Slides";
 import CardsRow from "./RowSlider/CardsRow";
 import { useState } from "react";
 import React from "react";
+import { Row } from "reactstrap";
 
 interface TopMainProps {}
 
@@ -18,7 +19,7 @@ const TopMain: React.FC<TopMainProps> = () => {
     };
 
     return (
-        <div className={style.TopMainElements}>
+        <Row className={style.TopMainElements}>
             <div className={style.ShowSlidesButton}>
                 <button
                     type="button"
@@ -146,7 +147,7 @@ const TopMain: React.FC<TopMainProps> = () => {
                 </button>
             </div>
             <div className={style.Slides}>{showDiv ? <CardsRow /> : <Slides />}</div>
-        </div>
+        </Row>
     );
 };
 

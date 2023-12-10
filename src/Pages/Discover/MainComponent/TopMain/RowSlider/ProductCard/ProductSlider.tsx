@@ -28,7 +28,7 @@ const ProductSlider: React.FC<ProductSliderProps> = ({ products }) => {
         dots: true,
         infinite: true,
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         autoplay: true,
         speed: 5000,
         autoplaySpeed: 7000,

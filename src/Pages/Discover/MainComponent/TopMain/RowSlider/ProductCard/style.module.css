@@ -2,39 +2,13 @@
 
 .product_slider {
     display: flex;
-    overflow-x: hidden;
+    justify-content: space-between;
+    gap: 30px;
     padding: 0 30px;
-    position: relative;
+    border-color: #fff ;
   }
   
-  .product_card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 16px;
-    text-align: center;
-    margin-right: 35px;
-  }
   
-  .product_card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 12px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-}
-  
-  .product_card h3 {
-    margin-bottom: 8px;
-    font-size: 1.3rem;
-    font-weight: 700;
-  }
-  
-  .product_card p {
-    margin-bottom: 10px;
-  }
   
   .nextArrow,
   .prevArrow {
@@ -69,68 +43,102 @@
   }
   
   /* Add additional styles as needed */
-  .product_card {
+
+.Container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 95%;
+    width: 100%;
     height: auto;
-    margin-bottom: 50px;
     overflow-x: hidden;
     padding: 0 30px;
     position: relative;
-}
-.product_card p{
-    color: #999;
-
+    border-color: #fff ;
 }
 
-.product_card .line_one img{
+.Container .line_one{
+    position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    width: 90%;
 }
 
-.product_card .line_two{
+
+.Container .line_one .car_img{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 100%;
-    padding: 1% 10%;
+    justify-content: center;
+    align-items: center;
+    object-fit:fill;
+    width: 75%;
 }
-.product_card .line_two .price{
-    color: #1c69d4 !important;
-    font-size: 1.2rem;
+.Container .line_one .backImg{
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 100px;
+    z-index: -1;
+    opacity: 70%;
+    position: absolute;
+    bottom: 0;
+}
+
+.Container .line_two{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
     font-weight: bold;
-    flex-direction: row;
+    padding-top: 10px;
+}
+.Container .line_two .price{
+    color: #1c69d4;
+    font-size: .9rem;
+    font-weight: bold;
+    padding-top: 8px;
+}
+.Container .line_two .name{
+    font-size: 1rem;
+    font-weight: bold;
 }
 
-.product_card .line_three p{
-    color: #1c69d4 !important;
-    flex-direction: row;
+.Container .line_three{
+    color: #1c69d4;
+    font-size: 0.8rem;
+    padding-top: 10px;
 }
 
-.product_card .line_four{
+.Container .line_four{
     display: flex;
-    justify-content: space-between;
-    width: 98%;
-    padding: 2% 8%;
-    flex-wrap: wrap;
-    flex-direction: row;
-    
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-inline: 10px;
 }
-.product_card .line_four p{
-    color: #3484f4 !important;
-    flex-direction: row;
+.Container .line_four .model, 
+.Container .line_four .km,
+.Container .line_four .color, 
+.Container .line_four .kind, 
+.Container .line_four .fender {
+    min-width: 20%;
+    padding-inline: 0px;
 }
 
-.product_card .line_five{
+.Container .line_five{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 2% 8%;
-    flex-direction: row;
+    color: #37393b;
+    padding-top: 10px;
+    padding-inline: 10px;
+    font-size: .65rem;
 }
+
+.Container .cardBody{
+    background-color:#e6e6e6;
+    margin: 1px;
+}
+
