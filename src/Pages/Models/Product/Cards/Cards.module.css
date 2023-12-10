@@ -5,17 +5,20 @@ a {
 }
 .Cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    justify-content: center;
     flex-wrap: wrap;
     row-gap: 30px;
     column-gap: 30px;
+    
 }
 
 .Cards .oneCard {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     flex-wrap: nowrap;
+
     -o-border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;

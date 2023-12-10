@@ -1,5 +1,5 @@
 .searchBody {
-    margin: 50px;
+    margin-left: 50px;
     display: flex;
     justify-content: space-between;
     row-gap: 20px;

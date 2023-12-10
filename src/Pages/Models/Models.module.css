@@ -11,29 +11,29 @@
 .models .modelsSectionTwo {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .models .modelsSectionTwo .search {
-    width: 25%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
 
 .models .modelsSectionTwo .product {
-    width: 75%;
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .models .navbar {
     position: absolute;
-    top: 1%;
+    top: 0;
     width: 100%;
     z-index: 10;
 }
@@ -48,4 +48,18 @@
 .models .footer {
     position: relative;
     width: 100%;
+}
+
+
+@media (max-width:1025px) {
+    .models .modelsSectionTwo{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .models .modelsSectionTwo .search{
+        flex-direction: row;
+    }
+    .models .modelsSectionTwo .product{
+        flex-direction: row;
+    }
 }
