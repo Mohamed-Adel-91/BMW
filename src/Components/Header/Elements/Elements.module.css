@@ -48,8 +48,14 @@
     z-index: 0;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 665px) {
     .element {
         display: none;
+    }
+}
+
+@media (min-width: 666px) and (max-width: 770px) {
+    .elementDiv{
+        width: 150px;
     }
 }

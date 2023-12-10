@@ -1,6 +1,6 @@
 import style from "./TopMain.module.css";
-import Slides from "./Slides";
-import CardsRow from "./CardsRow";
+import Slides from "./GridSlider/Slides";
+import CardsRow from "./RowSlider/CardsRow";
 import { useState } from "react";
 import React from "react";
 

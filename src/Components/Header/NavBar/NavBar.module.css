@@ -1,6 +1,7 @@
 .navBar {
     display: flex;
     justify-content: center;
+    flex-wrap: nowrap;
     width: 100%;
     max-width: 100%;
     padding-top: 2%;
@@ -9,6 +10,7 @@
 .navBar .navDetails {
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
     width: 75%;
     margin-right: 25px;
     border-bottom: 1.5px solid #fff;
@@ -16,6 +18,7 @@
 }
 
 .navBar .navDetails .searchBar {
+
     width: 500px;
     height: 40px;
     padding-top: 1px;
@@ -51,9 +54,6 @@
     border-radius: 0;
 }
 
-.navbar .navDetails .searchBar .search::target-text {
-    background-color: yellow;
-}
 
 .navBar .navDetails .searchBar .search::placeholder {
     color: #ffffffb6;
@@ -61,6 +61,7 @@
 
 .navBar .navDetails .navLinks {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     column-gap: 30px;
     margin-top: 10px;
@@ -71,7 +72,7 @@
 .navBar .navDetails .navLinks .link {
     text-decoration: none;
     color: #fff;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
     padding-bottom: 10px;
 }
@@ -83,8 +84,9 @@
 .navBar .navDetails .navIcons {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: nowrap;
     column-gap: 20px;
-    padding-right: 15px;
+    padding-inline: 15px;
     padding-bottom: 0px;
 }
 
@@ -98,4 +100,10 @@
 
 .navBar .navDetails .navIcons .icons:hover {
     color: #1c69d4;
+}
+
+@media (max-width: 321px) {
+    .navBar .logo{
+        display: none;
+    }
 }

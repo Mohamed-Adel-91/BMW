@@ -31,3 +31,15 @@
 .banner .content .desc {
     color: #fff;
 }
+
+@media (max-width:426px) {
+    .banner .content{
+        top: 28%;
+    }
+    .banner .content .title{
+        font-size: 16px;
+    }
+    .banner .content .desc{
+        font-size: 12px;
+    }
+}

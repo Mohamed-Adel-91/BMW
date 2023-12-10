@@ -47,3 +47,12 @@
 .cont .search:hover {
     background-color: #052c65;
 }
+
+@media (max-width: 376px) {
+    .cont .col{
+        min-width: 110px;
+        max-width: 150px;
+        font-size: 9px;
+    }
+}
+

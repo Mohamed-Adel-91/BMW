@@ -29,13 +29,13 @@
 }
 @media (min-width: 1026px) and (max-width: 1441px) {
     .card {
-        width: 300px;
+        width: 270px;
         height: 375px;
     }
 }
 @media (min-width: 799px) and (max-width: 1025px) {
     .card {
-        width: 250px;
+        width: 220px;
         height: 375px;
     }
 }

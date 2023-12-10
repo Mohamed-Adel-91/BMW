@@ -1,4 +1,4 @@
-import TopMain from "./TopMain.json"
+import TopMain from "../TopMain.json"
 import style from "./Slides.module.css"
 
 interface Item {

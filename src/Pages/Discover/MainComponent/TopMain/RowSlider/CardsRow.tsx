@@ -1,9 +1,6 @@
-
-// MainComponent.tsx
-
 import React from 'react';
-import ProductSlider from './RowSlider/ProductSlider';
-import TopMain from "./TopMain.json";
+import ProductSlider from './ProductCard/ProductSlider';
+import TopMain from "../TopMain.json";
 
 const CardsRow: React.FC = () => {
     return (

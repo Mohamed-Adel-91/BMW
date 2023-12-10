@@ -54,3 +54,9 @@
     position: relative;
     width: 100%;
 }
+
+@media (max-width: 321px) {
+    .discover .head .filter{
+        display: none;
+    }
+}
