@@ -57,7 +57,7 @@
         align-items: flex-start;
     }
     .models .modelsSectionTwo .search{
-        flex-direction: row;
+        display: none;
     }
     .models .modelsSectionTwo .product{
         flex-direction: row;
